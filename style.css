@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Card Design */
+.card {
+  background: white;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #4facfe;
+}
+
+.card h3 {
+  margin-top: 15px;
+}
+
+.card ul,
+.card ol {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Image */
+.center {
+  text-align: center;
+}
+
+.center img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 15px;
+  border: 4px solid #4facfe;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+  margin-top: 40px;
+}
